@@ -1,5 +1,5 @@
 const { add, list, update, removeTaks, getById } = require('../services/tasks')
-const { httpErrors } = require('../../../utils/error.handle')
+const { httpErrors } = require('../utils/error.handle')
 
 const addTask = async (req, res) => {
   const { body } = req
