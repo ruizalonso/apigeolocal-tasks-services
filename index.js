@@ -1,7 +1,6 @@
 const express = require('express')
 require('dotenv').config()
 const cors = require('cors')
-// const { checkJwt } = require('../middlewares/checkJwt.middleware')
 const PORT = process.env.PORT
 
 const app = express()
